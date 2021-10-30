@@ -1,1 +1,2 @@
-this is repo for front end developer cource provided by Udacity nanodegree program.
+# sample-blog
+this is from my local repository, tiapy0649.
