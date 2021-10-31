@@ -41,6 +41,7 @@ a:hover {
 .header {
     grid-area: hd;
     margin: 30px;
+    text-align: center;
 }
 
 .logo {
