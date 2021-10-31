@@ -57,17 +57,14 @@ a:hover {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #003300;
-}
-
-.nav-style li {
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .nav-style li a {
     display: block;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
