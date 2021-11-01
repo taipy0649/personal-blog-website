@@ -63,10 +63,14 @@ a:hover {
     justify-content: right;
 }
 
-.nav-style li a {
+.nav-style a {
     display: block;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.nav-style a:hover {
+    background-color: green;
 }
 
 .main {
