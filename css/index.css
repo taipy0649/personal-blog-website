@@ -73,7 +73,7 @@ header {
     background-color: green;
 }
 
-.main {
+main {
     grid-area: main;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ header {
 }
 
 /* for card in main*/
-.card {
+article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
