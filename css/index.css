@@ -111,8 +111,15 @@ header {
 }
 
 /* make my sub and intro */
-.sub {
+aside {
     grid-area: sub;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 
 .intro-me {
