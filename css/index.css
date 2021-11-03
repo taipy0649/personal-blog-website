@@ -1,19 +1,6 @@
-/* turn on black mode */
-body {
-    background-color: #121212;
-    color: #ffffff;
-}
+@import url(dark-theme.css);
+@import url(footer.css);
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* make grid container */
 .container {
     display: grid;
     grid-template-areas:
@@ -143,5 +130,3 @@ aside {
     margin-top: 30px;
     border-radius: 10px;
 }
-
-@import url(./footer.css);
