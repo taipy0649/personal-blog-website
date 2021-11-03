@@ -1,6 +1,6 @@
 @import url(./index.css);
 
-.content {
+.contents {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -9,4 +9,8 @@
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
     text-align: center;
+}
+
+figure {
+    background-color: hsl(0, 0%, 17%);
 }
