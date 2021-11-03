@@ -34,3 +34,39 @@ a:hover {
     }
 
 }
+
+/* make header has logo and navi */
+header {
+    grid-area: hd;
+    margin: 30px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* make navigation on header */
+.nav {
+    grid-area: nav;
+}
+
+.nav-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #003300;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-style a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-style a:hover {
+    background-color: green;
+}
